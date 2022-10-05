@@ -1,0 +1,15 @@
+{
+    "name": "test-project",
+    "private": true,
+    "scripts": {
+        "test": "generate-attribution"
+    },
+    "dependencies": {
+        "@electrovir/oss-attribution-generator": "file:../packed.tgz",
+        "bootstrap": "^5.2.2",
+        "gulp-yarn": "^3.0.0",
+        "has-yarn": "^3.0.0",
+        "karma-jasmine": "^5.1.0",
+        "webpack": "^5.74.0"
+    }
+}
